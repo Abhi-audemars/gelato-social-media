@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662064329873",
+    "project_id": "gelato-662a7",
+    "storage_bucket": "gelato-662a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662064329873:android:9498fa2a6b78cae03cbb30",
+        "android_client_info": {
+          "package_name": "com.example.insta_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662064329873-s8ubermi9cgjdpuc9hoje4lq6t67ropt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnkGqfJJnJaBM_1icwW0QS-GI_aJ3T2IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662064329873-s8ubermi9cgjdpuc9hoje4lq6t67ropt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
