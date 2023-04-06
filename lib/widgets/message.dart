@@ -75,7 +75,7 @@ class Messages extends StatelessWidget {
                               ),
                             ),
                             Text(
-                              'Instagram',
+                              'Gelato',
                               style: TextStyle(
                                 color: Theme.of(context).brightness ==
                                         Brightness.dark
@@ -88,7 +88,7 @@ class Messages extends StatelessWidget {
                               height: 3,
                             ),
                             Text(
-                              'You follow each other on instagram',
+                              'You follow each other on Gelato',
                               style: TextStyle(
                                 color: Theme.of(context).brightness ==
                                         Brightness.dark

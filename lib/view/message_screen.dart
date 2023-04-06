@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart'as badge;
+import 'package:badges/badges.dart' as badge;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone/utils/global_vairable.dart';
@@ -33,7 +33,7 @@ class _MessageScreenState extends State<MessageScreen> {
             appBar: AppBar(
                 title: Row(
               children: [
-               badge.Badge(
+                badge.Badge(
                   position: const badge.BadgePosition(bottom: -8, end: 0),
                   elevation: 0,
                   borderRadius: BorderRadius.circular(8),
@@ -79,11 +79,12 @@ class _MessageScreenState extends State<MessageScreen> {
             body: Column(
               children: [
                 Expanded(
-                    child: Messages(
-                  user: widget.user,
-                  userImage: snapshot.data!.data()!['photoUrl'],
-                  chatName: snapshot.data!.data()!['username'],
-                )),
+                  child: Messages(
+                    user: widget.user,
+                    userImage: snapshot.data!.data()!['photoUrl'],
+                    chatName: snapshot.data!.data()!['username'],
+                  ),
+                ),
                 NewMessage(user: widget.user),
               ],
             ),
