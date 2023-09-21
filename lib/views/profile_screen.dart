@@ -4,10 +4,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:insta_clone/utils/frosted_glass.dart';
-import '/view/message_screen.dart';
+import 'package:insta_clone/views/login_screen.dart';
+import 'package:insta_clone/views/message_screen.dart';
 import '/resources/auth_methods.dart';
 import '/resources/firestore_methods.dart';
-import '/view/login_screen.dart';
 import '/view/post_detail_screen.dart';
 import '/utils/utils.dart';
 import '../utils/global_vairable.dart';
@@ -555,9 +555,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                           ],
                                         )
                                       :
-                                      // Theme.of(context).brightness ==
-                                      //         Brightness.dark
-                                      //     ?
                                       Padding(
                                           padding: const EdgeInsets.only(
                                               left: 20, right: 20),
@@ -584,64 +581,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                               );
                                             },
                                           ),
-                                        )
-                              // : Expanded(
-                              //     child: GestureDetector(
-                              //       onTap: () async {
-                              //         await FirestoreMethods()
-                              //             .followUser(
-                              //                 FirebaseAuth.instance
-                              //                     .currentUser!.uid,
-                              //                 userData['uid']);
-                              //         setState(
-                              //           () {
-                              //             isFollowing = true;
-                              //             followers++;
-                              //           },
-                              //         );
-                              //       },
-                              //       child: Container(
-                              //         height: 40,
-                              //         decoration: BoxDecoration(
-                              //           color: Theme.of(context)
-                              //                       .brightness ==
-                              //                   Brightness.dark
-                              //               ? Colors.grey[900]
-                              //               : Colors.grey[300],
-                              //           borderRadius:
-                              //               BorderRadius.circular(20),
-                              //           boxShadow: [
-                              //             BoxShadow(
-                              //               color: Theme.of(context)
-                              //                           .brightness ==
-                              //                       Brightness.light
-                              //                   ? Colors.grey.shade600
-                              //                   : Colors.black,
-                              //               offset:
-                              //                   const Offset(6, 6),
-                              //               blurRadius: 10,
-                              //             ),
-                              //             BoxShadow(
-                              //               color: Theme.of(context)
-                              //                           .brightness ==
-                              //                       Brightness.light
-                              //                   ? Colors.white
-                              //                   : const Color
-                              //                           .fromARGB(
-                              //                       255, 53, 53, 53),
-                              //               offset:
-                              //                   const Offset(-4, -4),
-                              //               blurRadius: 2,
-                              //             )
-                              //           ],
-                              //         ),
-                              //         child: const Center(
-                              //           child: Text('Follow '),
-                              //         ),
-                              //       ),
-                              //     ),
-                              //   ),
-                              ),
+                          )),
                         ],
                       ),
                       const Divider(

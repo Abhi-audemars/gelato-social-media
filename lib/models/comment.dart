@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 class Comment {
   Comment({
     required this.profilePic,

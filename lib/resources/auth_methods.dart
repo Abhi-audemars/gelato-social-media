@@ -37,15 +37,14 @@ class AuthMethods {
             .uploadImageToStorage('profilePics', file, false);
         res = 'success';
         UserModel userModel = UserModel(
-          username: username,
-          uid: user.user!.uid,
-          email: email,
-          bio: bio,
-          photoUrl: photoUrl,
-          follower: [],
-          following: [],
-            status: "Online"
-        );
+            username: username,
+            uid: user.user!.uid,
+            email: email,
+            bio: bio,
+            photoUrl: photoUrl,
+            follower: [],
+            following: [],
+            status: "Online");
         await _firestore
             .collection('users')
             .doc(user.user!.uid)

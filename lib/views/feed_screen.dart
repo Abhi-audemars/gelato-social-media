@@ -38,24 +38,6 @@ class _FeedScreenState extends State<FeedScreen> {
         ),
         centerTitle: false,
         actions: [
-          // Padding(
-          //   padding: const EdgeInsets.symmetric(horizontal: 12.0),
-          //   child: GestureDetector(
-          //     onTap: () {
-          //       Navigator.push(context,
-          //           MaterialPageRoute(builder: (context) =>const InboxScreen(),),);
-          //     },
-          //     child:
-          //     // SvgPicture.asset(
-          //     //   sendIcon,
-          //     //   color: Theme.of(context).brightness == Brightness.dark
-          //     //       ? primaryColor
-          //     //       : Colors.black,
-          //     //   height: 20,
-          //     // ),
-          //     Icon(Icons.chat_sharp)
-          //   ),
-          // )
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: GestureDetector(

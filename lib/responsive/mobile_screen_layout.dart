@@ -1,15 +1,15 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone/resources/firestore_methods.dart';
+import 'package:insta_clone/view/add_post_screen.dart';
 import 'package:provider/provider.dart';
 import '../models/user.dart';
 import '../controller/user_provider.dart';
 import '../resources/auth_methods.dart';
-import '../view/add_post_screen.dart';
-import '../view/feed_screen.dart';
-import '../view/notification_screen.dart';
-import '../view/profile_screen.dart';
-import '../view/search_screen.dart';
+import '../views/feed_screen.dart';
+import '../views/notification_screen.dart';
+import '../views/profile_screen.dart';
+import '../views/search_screen.dart';
 
 class MobileScreenLayout extends StatefulWidget {
   const MobileScreenLayout({Key? key}) : super(key: key);

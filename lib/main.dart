@@ -8,7 +8,7 @@ import 'controller/user_provider.dart';
 import 'responsive/mobile_screen_layout.dart';
 import 'responsive/responsive_layout.dart';
 import 'responsive/web_screen_layout.dart';
-import 'view/login_screen.dart';
+import 'views/login_screen.dart';
 import 'utils/colors.dart';
 import 'utils/global_vairable.dart';
 

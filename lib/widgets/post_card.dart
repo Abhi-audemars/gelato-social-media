@@ -9,11 +9,11 @@ import 'package:get_time_ago/get_time_ago.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-import '../view/message_screen.dart';
+import '../views/message_screen.dart';
 import '/models/user.dart';
 import '/controller/user_provider.dart';
 import '/resources/firestore_methods.dart';
-import '/view/comment_screen.dart';
+import '../views/comment_screen.dart';
 import '/utils/colors.dart';
 import '/utils/global_vairable.dart';
 import '/utils/utils.dart';

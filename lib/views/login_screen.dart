@@ -2,12 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:insta_clone/views/forgot_screen.dart';
+import 'package:insta_clone/views/signup_screen.dart';
 import 'package:rive/rive.dart';
 import 'package:shimmer/shimmer.dart';
-import '/view/forgot_screen.dart';
 import '../resources/firestore_methods.dart';
 import '/resources/auth_methods.dart';
-import '/view/signup_screen.dart';
 import '/utils/colors.dart';
 import '../responsive/mobile_screen_layout.dart';
 import '../responsive/responsive_layout.dart';

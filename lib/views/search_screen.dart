@@ -6,9 +6,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:insta_clone/views/profile_screen.dart';
 
 import '/view/post_detail_screen.dart';
-import '/view/profile_screen.dart';
 import '/utils/colors.dart';
 import '../utils/global_vairable.dart';
 import '../widgets/animated_dialogue.dart';
@@ -301,8 +301,8 @@ class _SearchScreenState extends State<SearchScreen> {
                       MasonryGridView.builder(
                         gridDelegate:
                             const SliverSimpleGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 3),
-                        // crossAxisCount: 3,
+                          crossAxisCount: 3,
+                        ),
                         itemCount: (snapshot.data! as dynamic).docs.length,
                         itemBuilder: (context, index) {
                           var doc = (snapshot.data! as dynamic).docs[index];
